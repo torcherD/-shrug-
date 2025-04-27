@@ -18529,7 +18529,7 @@
 	}
 
 	function instance$7($$self, $$props, $$invalidate) {
-		let rapidfireEnabled = false;
+		let rapidfireEnabled = true;
 		let rapidfireInterval;
 		let { message } = $$props;
 		let { hotkeyId } = $$props;
