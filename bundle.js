@@ -20113,7 +20113,7 @@
 		const maxSpeedupMultiplier = 490 / 357; // gathered from some testing, any higher and we get teleported back
 
 		// this file is a hot mess, but it works
-		let speedupMultiplier = 1;
+		let speedupMultiplier = 2;
 
 		let nativeSpeed = -1;
 		let lastSetTo = undefined;
@@ -20185,7 +20185,7 @@
 		}
 
 		let jumpboostEnabled = false;
-		let jumpboostMultiplier = 1;
+		let jumpboostMultiplier = 2;
 		let nativeJumpboost = -1;
 
 		function enableJumpboost(value) {
