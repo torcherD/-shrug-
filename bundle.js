@@ -20117,7 +20117,7 @@
 
 		let nativeSpeed = -1;
 		let lastSetTo = undefined;
-		let speedupEnabled = false;
+		let speedupEnabled = true;
 
 		function enableSpeedup(value) {
 			if (!getUnsafeWindow()?.stores?.me) return;
@@ -20184,7 +20184,7 @@
 			}
 		}
 
-		let jumpboostEnabled = false;
+		let jumpboostEnabled = true;
 		let jumpboostMultiplier = 2;
 		let nativeJumpboost = -1;
 
