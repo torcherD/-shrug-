@@ -20113,11 +20113,11 @@
 		const maxSpeedupMultiplier = 490 / 357; // gathered from some testing, any higher and we get teleported back
 
 		// this file is a hot mess, but it works
-		let speedupMultiplier = 2;
+		let speedupMultiplier = 1;
 
 		let nativeSpeed = -1;
 		let lastSetTo = undefined;
-		let speedupEnabled = true;
+		let speedupEnabled = false;
 
 		function enableSpeedup(value) {
 			if (!getUnsafeWindow()?.stores?.me) return;
