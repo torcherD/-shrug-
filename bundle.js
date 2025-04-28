@@ -20184,8 +20184,8 @@
 			}
 		}
 
-		let jumpboostEnabled = true;
-		let jumpboostMultiplier = 2;
+		let jumpboostEnabled = false;
+		let jumpboostMultiplier = 1;
 		let nativeJumpboost = -1;
 
 		function enableJumpboost(value) {
